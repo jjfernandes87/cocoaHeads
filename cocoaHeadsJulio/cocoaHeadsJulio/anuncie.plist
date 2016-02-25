@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Section</key>
+		<string>características principais</string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>ShortcutIcon</key>
+				<string>ico_quartos</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Quartos</string>
+					<key>PlaceHolder</key>
+					<string>Apenas números</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>ShortcutIcon</key>
+				<string>ico_suites</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Suites</string>
+					<key>PlaceHolder</key>
+					<string>Apenas números</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>ShortcutIcon</key>
+				<string>ico_vagas</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Vagas</string>
+					<key>PlaceHolder</key>
+					<string>Apenas números</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Section</key>
+		<string>localização do imóvel</string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>ShortcutIcon</key>
+				<string>ic_cep</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>CEP</string>
+					<key>PlaceHolder</key>
+					<string>Apenas números</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Endereço</string>
+					<key>PlaceHolder</key>
+					<string>Rua, avenida, praça ...</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Número</string>
+					<key>PlaceHolder</key>
+					<string>Apenas números</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Complem.</string>
+					<key>PlaceHolder</key>
+					<string>Apartamento, bloco ...</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Section</key>
+		<string>valor</string>
+		<key>Rows</key>
+		<array>
+			<dict>
+				<key>CellIdentifier</key>
+				<string>TextFieldCell</string>
+				<key>ShortcutIcon</key>
+				<string>ico_valor</string>
+				<key>UserInfo</key>
+				<dict>
+					<key>Title</key>
+					<string>Valor</string>
+					<key>PlaceHolder</key>
+					<string>R$0,00</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

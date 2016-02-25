@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE5ED961C7E7B600061909D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5ED951C7E7B600061909D /* AppDelegate.swift */; };
+		FCE5ED981C7E7B600061909D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5ED971C7E7B600061909D /* ViewController.swift */; };
+		FCE5ED9B1C7E7B600061909D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE5ED991C7E7B600061909D /* Main.storyboard */; };
+		FCE5ED9D1C7E7B600061909D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE5ED9C1C7E7B600061909D /* Assets.xcassets */; };
+		FCE5EDA01C7E7B600061909D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE5ED9E1C7E7B600061909D /* LaunchScreen.storyboard */; };
+		FCE5EDB01C7E7B9B0061909D /* SCTableViewCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDAD1C7E7B9B0061909D /* SCTableViewCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FCE5EDB11C7E7B9B0061909D /* SelfContainedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDAF1C7E7B9B0061909D /* SelfContainedTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FCE5EDB31C7E7BF00061909D /* anuncie.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCE5EDB21C7E7BF00061909D /* anuncie.plist */; };
+		FCE5EDB51C7E7CEC0061909D /* CellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDB41C7E7CEC0061909D /* CellItem.swift */; };
+		FCE5EDB91C7E7D240061909D /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDB81C7E7D240061909D /* BaseCell.swift */; };
+		FCE5EDBF1C7E7D790061909D /* HeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDBB1C7E7D790061909D /* HeaderController.swift */; };
+		FCE5EDC01C7E7D790061909D /* HeaderController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE5EDBC1C7E7D790061909D /* HeaderController.xib */; };
+		FCE5EDC11C7E7D790061909D /* HeaderDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDBD1C7E7D790061909D /* HeaderDetailsController.swift */; };
+		FCE5EDC21C7E7D790061909D /* HeaderDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE5EDBE1C7E7D790061909D /* HeaderDetailsController.xib */; };
+		FCE5EDC41C7E7EF10061909D /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE5EDC31C7E7EF10061909D /* TextFieldCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCE5ED921C7E7B600061909D /* cocoaHeadsJulio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoaHeadsJulio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE5ED951C7E7B600061909D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCE5ED971C7E7B600061909D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCE5ED9A1C7E7B600061909D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE5ED9C1C7E7B600061909D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE5ED9F1C7E7B600061909D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCE5EDA11C7E7B600061909D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE5EDA71C7E7B820061909D /* cocoaHeadsJulio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocoaHeadsJulio-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCE5EDAC1C7E7B9B0061909D /* SCTableViewCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTableViewCache.h; sourceTree = "<group>"; };
+		FCE5EDAD1C7E7B9B0061909D /* SCTableViewCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTableViewCache.m; sourceTree = "<group>"; };
+		FCE5EDAE1C7E7B9B0061909D /* SelfContainedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfContainedTableView.h; sourceTree = "<group>"; };
+		FCE5EDAF1C7E7B9B0061909D /* SelfContainedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfContainedTableView.m; sourceTree = "<group>"; };
+		FCE5EDB21C7E7BF00061909D /* anuncie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = anuncie.plist; sourceTree = "<group>"; };
+		FCE5EDB41C7E7CEC0061909D /* CellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellItem.swift; sourceTree = "<group>"; };
+		FCE5EDB81C7E7D240061909D /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		FCE5EDBB1C7E7D790061909D /* HeaderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderController.swift; sourceTree = "<group>"; };
+		FCE5EDBC1C7E7D790061909D /* HeaderController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderController.xib; sourceTree = "<group>"; };
+		FCE5EDBD1C7E7D790061909D /* HeaderDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderDetailsController.swift; sourceTree = "<group>"; };
+		FCE5EDBE1C7E7D790061909D /* HeaderDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderDetailsController.xib; sourceTree = "<group>"; };
+		FCE5EDC31C7E7EF10061909D /* TextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE5ED8F1C7E7B600061909D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE5ED891C7E7B5F0061909D = {
+			isa = PBXGroup;
+			children = (
+				FCE5ED941C7E7B600061909D /* cocoaHeadsJulio */,
+				FCE5ED931C7E7B600061909D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE5ED931C7E7B600061909D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5ED921C7E7B600061909D /* cocoaHeadsJulio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE5ED941C7E7B600061909D /* cocoaHeadsJulio */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5EDBA1C7E7D790061909D /* TableViewSections */,
+				FCE5EDB71C7E7D120061909D /* TableViewCell */,
+				FCE5EDB61C7E7D050061909D /* Model */,
+				FCE5EDAB1C7E7B9B0061909D /* SelfContainedTableView */,
+				FCE5ED951C7E7B600061909D /* AppDelegate.swift */,
+				FCE5ED971C7E7B600061909D /* ViewController.swift */,
+				FCE5ED991C7E7B600061909D /* Main.storyboard */,
+				FCE5ED9C1C7E7B600061909D /* Assets.xcassets */,
+				FCE5ED9E1C7E7B600061909D /* LaunchScreen.storyboard */,
+				FCE5EDB21C7E7BF00061909D /* anuncie.plist */,
+				FCE5EDA11C7E7B600061909D /* Info.plist */,
+				FCE5EDA71C7E7B820061909D /* cocoaHeadsJulio-Bridging-Header.h */,
+			);
+			path = cocoaHeadsJulio;
+			sourceTree = "<group>";
+		};
+		FCE5EDAB1C7E7B9B0061909D /* SelfContainedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5EDAC1C7E7B9B0061909D /* SCTableViewCache.h */,
+				FCE5EDAD1C7E7B9B0061909D /* SCTableViewCache.m */,
+				FCE5EDAE1C7E7B9B0061909D /* SelfContainedTableView.h */,
+				FCE5EDAF1C7E7B9B0061909D /* SelfContainedTableView.m */,
+			);
+			path = SelfContainedTableView;
+			sourceTree = "<group>";
+		};
+		FCE5EDB61C7E7D050061909D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5EDB41C7E7CEC0061909D /* CellItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCE5EDB71C7E7D120061909D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5EDB81C7E7D240061909D /* BaseCell.swift */,
+				FCE5EDC31C7E7EF10061909D /* TextFieldCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FCE5EDBA1C7E7D790061909D /* TableViewSections */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5EDBB1C7E7D790061909D /* HeaderController.swift */,
+				FCE5EDBC1C7E7D790061909D /* HeaderController.xib */,
+				FCE5EDBD1C7E7D790061909D /* HeaderDetailsController.swift */,
+				FCE5EDBE1C7E7D790061909D /* HeaderDetailsController.xib */,
+			);
+			path = TableViewSections;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE5ED911C7E7B600061909D /* cocoaHeadsJulio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE5EDA41C7E7B600061909D /* Build configuration list for PBXNativeTarget "cocoaHeadsJulio" */;
+			buildPhases = (
+				FCE5ED8E1C7E7B600061909D /* Sources */,
+				FCE5ED8F1C7E7B600061909D /* Frameworks */,
+				FCE5ED901C7E7B600061909D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocoaHeadsJulio;
+			productName = cocoaHeadsJulio;
+			productReference = FCE5ED921C7E7B600061909D /* cocoaHeadsJulio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE5ED8A1C7E7B5F0061909D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Julio Fernandes";
+				TargetAttributes = {
+					FCE5ED911C7E7B600061909D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FCE5ED8D1C7E7B5F0061909D /* Build configuration list for PBXProject "cocoaHeadsJulio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE5ED891C7E7B5F0061909D;
+			productRefGroup = FCE5ED931C7E7B600061909D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE5ED911C7E7B600061909D /* cocoaHeadsJulio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE5ED901C7E7B600061909D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE5EDC01C7E7D790061909D /* HeaderController.xib in Resources */,
+				FCE5EDA01C7E7B600061909D /* LaunchScreen.storyboard in Resources */,
+				FCE5ED9D1C7E7B600061909D /* Assets.xcassets in Resources */,
+				FCE5ED9B1C7E7B600061909D /* Main.storyboard in Resources */,
+				FCE5EDB31C7E7BF00061909D /* anuncie.plist in Resources */,
+				FCE5EDC21C7E7D790061909D /* HeaderDetailsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE5ED8E1C7E7B600061909D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE5EDB51C7E7CEC0061909D /* CellItem.swift in Sources */,
+				FCE5ED981C7E7B600061909D /* ViewController.swift in Sources */,
+				FCE5EDB11C7E7B9B0061909D /* SelfContainedTableView.m in Sources */,
+				FCE5EDC11C7E7D790061909D /* HeaderDetailsController.swift in Sources */,
+				FCE5EDB01C7E7B9B0061909D /* SCTableViewCache.m in Sources */,
+				FCE5EDC41C7E7EF10061909D /* TextFieldCell.swift in Sources */,
+				FCE5EDB91C7E7D240061909D /* BaseCell.swift in Sources */,
+				FCE5ED961C7E7B600061909D /* AppDelegate.swift in Sources */,
+				FCE5EDBF1C7E7D790061909D /* HeaderController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCE5ED991C7E7B600061909D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE5ED9A1C7E7B600061909D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE5ED9E1C7E7B600061909D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE5ED9F1C7E7B600061909D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE5EDA21C7E7B600061909D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE5EDA31C7E7B600061909D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE5EDA51C7E7B600061909D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = cocoaHeadsJulio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jfjconsultoria.cocoaHeadsJulio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cocoaHeadsJulio/cocoaHeadsJulio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCE5EDA61C7E7B600061909D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = cocoaHeadsJulio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jfjconsultoria.cocoaHeadsJulio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cocoaHeadsJulio/cocoaHeadsJulio-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE5ED8D1C7E7B5F0061909D /* Build configuration list for PBXProject "cocoaHeadsJulio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE5EDA21C7E7B600061909D /* Debug */,
+				FCE5EDA31C7E7B600061909D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE5EDA41C7E7B600061909D /* Build configuration list for PBXNativeTarget "cocoaHeadsJulio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE5EDA51C7E7B600061909D /* Debug */,
+				FCE5EDA61C7E7B600061909D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE5ED8A1C7E7B5F0061909D /* Project object */;
+}
